@@ -9,7 +9,11 @@ This document describes the structure, dependencies, and usage of the notebook. 
 - Markdown cells: **0**
 
 ## Table of Contents (from notebook headings)
-_No headings found in markdown cells._
+1. Libraries & Load dataset
+2. Data Preproccessing with hierarchial
+3. Data Split Training with CNN
+4. CNN-only method
+5. Metrics comparision
 
 ## Dependencies
 **Third-party**
@@ -40,7 +44,7 @@ _No headings found in markdown cells._
 - **`calculate_metrics(true_labels, predicted_labels)`**
 
 ## Data Inputs & Outputs (guessed from code)
-_No obvious data file references detected._
+- M. Nickparvar, “Brain Tumor MRI Dataset,” Kaggle, 2021. doi:10.34740/KAGGLE/DSV/2645886. Available: https://www.kaggle.com/datasets/masoudnickparvar/brain-tumor-mri-dataset. Accessed: Nov. 5, 2025.
 
 ## How to Run
 1. Create and activate a Python 3.10+ environment.
